@@ -19,7 +19,7 @@ public class BuildAndPushToItch
         PushToItch("android", "android");
     }
 
-   ublic static void PushToItch(string folderName, string channel)
+   public static void PushToItch(string folderName, string channel)
     {
         // Prior running this, you must run 'butler login' at least once, so that the credentials are available.
         var proc = new Process();
